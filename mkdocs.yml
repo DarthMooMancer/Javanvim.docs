@@ -14,7 +14,7 @@ theme:
   language: en
   palette:
     - scheme: slate
-      primary: orange
+      primary: purple
       accent: teal
 
 extra:
