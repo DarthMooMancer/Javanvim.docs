@@ -5,7 +5,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
-    - navigation.top
+    # - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -14,7 +14,7 @@ theme:
   language: en
   palette:
     - scheme: slate
-      primary: orange
+      primary: slate
       accent: teal
 
 extra:
