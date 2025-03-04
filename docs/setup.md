@@ -12,7 +12,9 @@ require...({
 * It will automatically make the new Root Directory, so you don't have to worry about that.
 
 ## Keybinds
-The default keybinds are:
+* The default keybinds are below so you don't need to worry about setting them up. 
+* Below is an example of how to set the setup properly.
+
 ```lua
 require...({
   keybinds = {
