@@ -16,8 +16,10 @@ require {
         ["<leader>np"] = "NewJavaProject",
       },
       terminal = {
-        width_pad = 10,
-        height_pad = 10,
+        right_padding = 0,
+        bottom_padding = 0,
+        left_padding = 0,
+        top_padding = 0,
         border = true,
         number = true,
         relativenumber = true,
