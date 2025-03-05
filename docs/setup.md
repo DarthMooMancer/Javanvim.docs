@@ -29,23 +29,28 @@ require...({
 
 ## Terminal
 
-- The terminal has a couple of options that can be customized and with more to come
+* The terminal has a couple of options that can be customized and with more to come
 
-  * width_pad - 10 by default, padding for the width of the terminal
-  * height_pad - 10 by default, padding for the width of the terminal
+  * right_padding - 0 by default, padding for the right width of the terminal
+  * left_padding - 0 by default, padding for the left width of the terminal
+  * top_padding - 0 by default, padding for the top height of the terminal
+  * bottom_padding - 0 by default, padding for the bottom padding of the terminal
   * border - true by default
   * number - true by default, adds numbers to side of terminal
   * relativenumber - true by default, only works if number is enabled also
   * scroll - true by default, allows scrolling in terminal
 
-- Below is an example of how to set the setup properly:
+* Below is an example of how to set the setup properly:
 ```lua
 require...({
   terminal = {
-    width_pad = 0,
-    height_pad = 0,
-    border = false,
-    number = false, -- if number is false, no need to make relativenumber false as well
+    right_padding = 0,
+    bottom_padding = 0,
+    left_padding = 0,
+    top_padding = 0,
+    border = true,
+    number = true,
+    relativenumber = true,
     scroll = true,
   }
 })
