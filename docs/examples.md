@@ -1,6 +1,8 @@
 ## An example of Lazyvim and setup
 ------------
-::: Quick note: There is no need to copy this. This is an example, but it consists of the defaults.
+::: warning
+Quick note: There is no need to copy this. This is an example, but it consists of the defaults.
+:::
 
 ```lua
 require {
