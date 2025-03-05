@@ -12,7 +12,6 @@ require...({
 * It will automatically make the new Root Directory, so you don't have to worry about that.
 
 ## Keybinds
-* !!! There is currently an error with the keybinds, the main keybinds are used however the defaults are not overwritten. I am trying to find a fix, but it may be some time before I can fix the issue. So there are 2 keybinds that can be used if you set on in the init.lua. The only one that works as intended is CloseTerminal.
 * The default keybinds are below so you don't need to worry about setting them up. 
 * Below is an example of how to set the setup properly:
 
