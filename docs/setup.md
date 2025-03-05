@@ -3,20 +3,18 @@
 ## Project Name
 
 ```lua
-require...({
+require("Javanvim").setup({
   project_root = "~/Home/..." -- Default: ~/Projects
 })
 ```
 
-* You can change the default directory for the project. The project can be made anywhere you want.
-* It will automatically make the new Root Directory, so you don't have to worry about that.
+* You can change the default directory for the project. The project can be made from anywhere you want.
+* It will automatically make the new Root Directory, so you don't have to worry about making it.
 
 ## Keybinds
-* The default keybinds are below so you don't need to worry about setting them up. 
-* Below is an example of how to set the setup properly:
-
 ```lua
-require...({
+-- These are defaults, so no need to copy them
+require("Javanvim").setup({
   keybinds = {
     ["<leader>jb"] = "JavaBuild" -- Building all Java Files in src directory in.
     ["<leader>jr"] = "JavaRun" -- Runs Main.java in the out folder in your project_root
@@ -30,19 +28,20 @@ require...({
 ## Terminal
 
 * The terminal has a couple of options that can be customized and with more to come
+    - Each is set to 0 by default
+        * **_right_padding:_** Padding for the right width of the terminal
+        * **_left_padding:_** Padding for the left width of the terminal
+        * **_top_padding:_** Padding for the top height of the terminal
+        * **_bottom_padding:_** Padding for the bottom padding of the terminal
+    - Each is enabled by default
+        * **_border:_** Adds a rounded border to the window
+        * **_number:_** Adds numbers to side of terminal
+        * **_relativenumber:_** Relative numbers indicate distances from the cursor, only works if number is enabled
+        * **_scroll:_** Allows scrolling in terminal
 
-  * right_padding - 0 by default, padding for the right width of the terminal
-  * left_padding - 0 by default, padding for the left width of the terminal
-  * top_padding - 0 by default, padding for the top height of the terminal
-  * bottom_padding - 0 by default, padding for the bottom padding of the terminal
-  * border - true by default
-  * number - true by default, adds numbers to side of terminal
-  * relativenumber - true by default, only works if number is enabled also
-  * scroll - true by default, allows scrolling in terminal
-
-* Below is an example of how to set the setup properly:
 ```lua
-require...({
+-- These are just defaults, so no need to copy them
+require("Javanvim").setup({
   terminal = {
     right_padding = 0,
     bottom_padding = 0,

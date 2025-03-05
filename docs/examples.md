@@ -1,8 +1,6 @@
-## An example of Lazyvim and setup
-
-### Note: There is no need to copy this. This is an example and it consists of the defaults.
-
+### Lazyvim and Config
 ```lua
+-- There is no need to copy this. This is an example and it consists of the defaults.
 require {
   "DarthMooMancer/Javanvim",
   config = function()
