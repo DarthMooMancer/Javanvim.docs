@@ -32,14 +32,14 @@ require...({
 
 - The terminal has a couple of options that can be customized and with more to come
 
-* width_pad - 10 by default, padding for the width of the terminal
+  * width_pad - 10 by default, padding for the width of the terminal
   * height_pad - 10 by default, padding for the width of the terminal
   * border - true by default
   * number - true by default, adds numbers to side of terminal
   * relativenumber - true by default, only works if number is enabled also
   * scroll - true by default, allows scrolling in terminal
 
-* Below is an example of how to set the setup properly:
+- Below is an example of how to set the setup properly:
 ```lua
 require...({
   terminal = {
