@@ -29,7 +29,9 @@ require...({
 ```
 
 ## Terminal
-### The terminal has a couple of options that can be customized and with more to come
+
+The terminal has a couple of options that can be customized and with more to come
+-----
 * width_pad - 10 by default, padding for the width of the terminal
 * height_pad - 10 by default, padding for the width of the terminal
 * border - true by default
