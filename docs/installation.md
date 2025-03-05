@@ -16,7 +16,10 @@ require {
 ## Mini.Deps
 ------------
 ```lua
-MiniDeps.add({ source = 'DarthMooMancer/Javanvim', name = "Javanvim" })
+MiniDeps.add({
+  source = 'DarthMooMancer/Javanvim',
+  name = "Javanvim"
+})
+
 require("Javanvim").setup()
 ```
-
