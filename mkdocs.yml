@@ -1,4 +1,9 @@
 site_name: Javanvim
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Setup: setup.md
+  - Examples: examples.md
 theme:
   name: material
   features:
